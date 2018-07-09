@@ -1,0 +1,34 @@
+{
+  "name": "hapi-frequency",
+  "version": "0.0.0",
+  "description": "hapi频率限制插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapi-union/hapi-frequency.git"
+  },
+  "keywords": [
+    "hapi",
+    "frequency",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "136177121@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hapi-union/hapi-frequency/issues"
+  },
+  "homepage": "https://github.com/hapi-union/hapi-frequency#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "standard": "^11.0.1"
+  }
+}

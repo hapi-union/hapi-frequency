@@ -1,2 +1,34 @@
 # hapi-frequency
 hapi频率限制插件
+
+## 声明插件依赖
+```
+server.dependency('hapi-frequency', async () => {
+  const { validate } = server.plugins['hapi-frequency']
+  // 1. 验证频率
+  const condition1 = validate(
+    {
+      mail,
+      action,
+      uid
+    },
+    {
+      amount: 5,
+      interval: 1800 * 1000
+    }
+  )
+  const condition2 = validate(
+    {
+      uid,
+      action
+    },
+    {
+      amount: 5,
+      interval: 1800 * 1000
+    }
+  )
+  // 发送邮件
+  PostOffice
+})
+```
+
