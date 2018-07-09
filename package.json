@@ -1,6 +1,6 @@
 {
   "name": "hapi-frequency",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "hapi频率限制插件",
   "main": "index.js",
   "scripts": {
