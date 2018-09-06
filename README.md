@@ -1,6 +1,17 @@
 # hapi-frequency
 hapi频率限制插件
 
+### 配置插件
+```
+server.register({
+  plugin: require('hapi-frequency'),
+  options: {
+    connection: 'default',
+    modelName: 'Frequency',
+    collectionName: 'frequency'
+  }
+})
+```
 ## 声明插件依赖
 ```
 server.dependency('hapi-frequency', async () => {
